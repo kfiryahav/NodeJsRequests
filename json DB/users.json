@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "60d302bb0e92191a50ff2bbd"
+  },
+  "first_name": "mozes",
+  "last_name": "kfar saba",
+  "age": 30,
+  "password": "$2b$10$8FB6AZhR2xieO16EqHyghuc02.M.vTj7kn3c.qoUroQczN0WQytpW",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d3045a71113922d00f3bde"
+  },
+  "first_name": "sapir",
+  "last_name": "yahav",
+  "age": 26,
+  "password": "$2b$10$hmAqWIZMZMgD07gTGKcf/un1cheoLj3JrWc7V5QSipvA7a0VWXTN6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d305421556a54cb42e2c29"
+  },
+  "first_name": "kfir",
+  "last_name": "yahav",
+  "age": 28,
+  "email": "kfir@gmail.com",
+  "password": "$2b$10$mlbzsvpLRySGQRsgDOKnb.SJA7DHUAbnL8ncXvExdo9jIwkuBtr9y",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d3388095198b142066a5cb"
+  },
+  "first_name": "koko",
+  "last_name": "hakof",
+  "age": 26,
+  "email": "koko@gmail.com",
+  "password": "$2b$10$10ejxxUHLvCBcc76/BIaU.9DCT/Tzt9flfz8OqW9ligqyyBCzYEPS",
+  "business": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d7077c497a5a119430fdc4"
+  },
+  "first_name": "noam",
+  "last_name": "toor",
+  "age": 40,
+  "birth_date": "12-12-1992",
+  "email": "noam@gmail.com",
+  "password": "$2b$10$wOFSfWTZoxKhMhSziSRBRu2z3OYISiovVlv2V449WhWO1es7PEhse",
+  "business": true,
+  "token": null,
+  "__v": 0
+}]
