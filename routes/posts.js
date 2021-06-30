@@ -84,6 +84,7 @@ router.get("/:idGet", async (req, res) => {
     }
 });
 
+//one more option to delete post without authentication
 router.get("/:idDel", async (req, res) => {
     let idDel = req.params.idDel;
     try {
