@@ -39,7 +39,6 @@ router.put("/:idEdit", authToken, async (req, res) => {
         return res.status(400).json(validBody.error.details);
     }
     try {
-        // can edit only if the id of the user is equal to the id that sended with the token
         let data = await PostModel.updateOne(req.body);
         // if success we will get: "n1";
         res.json(data);
