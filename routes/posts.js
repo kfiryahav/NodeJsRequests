@@ -17,7 +17,7 @@ router.post("/", authToken, checkIfBusiness, async (req, res) => {
     try {
         // at first check if the user have token 
         // second - checks if this user is a business user
-        // and than add new post from the detiles of the req.body
+        // and then add new post from the detiles of the req.body
         let post = new PostModel(req.body);
         // post.name = req.tokenData.first_name;
         //   when you add a new post it adds new property with id of the user (user_id)
